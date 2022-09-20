@@ -209,5 +209,56 @@ main {
     color: #fff;
 }
 
+/*lista terceros*/
+.lista-terceros-vista {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 20px auto;
+}
+.tabla {
+	width: 100%;
+	height: auto;
+	margin: 50px;
+	align-content: center;
+	display: flex;
+	border: 1px solid #000;
+	flex-direction: column;
+	justify-content: center;
+	/* background: #c4bebe; */
+}
+.tabla-header, .tabla-body, .tabla-footer{
+	display: flex;
+	width: 100%;
+	margin: auto;
+	justify-content: center;
+	height: 20px;
+}
+
+.tabla tr, .tabla-header th  {
+	width: 100%;
+	height: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.tabla-header th  {
+	padding:5px;
+}
+
+.tabla-body td{
+
+	width: 100%;
+	height: auto;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+
+
+
+
 
 
